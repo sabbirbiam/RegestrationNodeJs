@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>Employee Regestreation </h3>
+	
+	<form method="post">
+		<table>
+			<tr>
+				<td>NAME</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			
+			<tr>
+				<td>GENDER</td>
+				 <td><input type="radio" name="gender" value="male" checked> Male<br></td>
+                 <td><input type="radio" name="gender" value="female"> Female<br></td>
+                 <td><input type="radio" name="gender" value="other"> Other </td>
+			</tr>
+			
+			<tr>
+				<td>ADDRESS</td>
+				<td>
+				<textarea rows="4" cols="50" name="address">
+                </textarea>
+                </td>
+			</tr>
+			
+			<tr>
+				<td>Department</td>
+				<td> 
+				<select name="dept">
+					  <option value="Admin">Admin</option>
+					  <option value="Sales">Sales</option>
+                 </select> 
+				 </td>
+			</tr>
+			
+			<tr>
+				<td>EMAIL</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>PASSWORD</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			
+			<tr>
+				<td>CONFIRM PASSWORD</td>
+				<td><input type="password" name="cpassword"></td>
+			</tr>
+			<tr>
+			
+			<tr>
+			     <td>Outside Capital</td>
+				 <td><input type="checkbox" name="capital" value="Outisde capital"> Outside Capital</td><br>
+			</tr>
+				<td></td>
+				<td><input type="submit" value="Login"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html> 
